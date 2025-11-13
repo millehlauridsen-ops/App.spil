@@ -54,8 +54,6 @@ body {
   );
   color: var(--text);
   min-height: 100vh;
-  max-width: 550px;
-  margin-left: 3vh;
 }
 
 header {
@@ -251,9 +249,9 @@ dialog#game-dialog::backdrop {
 }
 
 #dialog-content {
-  padding: 2rem;
+  padding: 1.5rem;
   display: grid;
-  grid-template-columns: minmax(250px, 1fr) 2fr;
+  grid-template-columns: 1fr;
   gap: 1rem;
   align-items: start;
   overflow-y: auto;
